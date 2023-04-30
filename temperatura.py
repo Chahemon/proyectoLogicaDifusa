@@ -1,6 +1,6 @@
 import Funciones
 
-
+# Clase para crear objetos temperatura, con su respectivas membresias.
 class Temperatura:
     def __init__(self, temperatura):
         self.tem_muy_baja = 0

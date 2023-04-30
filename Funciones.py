@@ -1,5 +1,7 @@
 # En cambas funciones el valor "x" es la entrada.
 
+# Las usaremos para calcular la membresía de la temperatura y humedad.
+
 # Función trapezoidal
 
 def trapezoidal(x, a, b, c, d):
@@ -16,7 +18,7 @@ def trapezoidal(x, a, b, c, d):
 # Función triangular
 
 def triangular(x, a, b, c):
-    if x <= a or x >= c:
+    if x < a or x >= c:
         return 0
     elif a < x <= b:
         return (x - a) / (b - a)
